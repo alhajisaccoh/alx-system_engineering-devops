@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # This displays "Best School" 10 times 
 
+count=0
 
-while [ i < 10 ]; do
+while [ $count -lt 10 ]; do
 	echo "Best School"
+	(( count++ ))
 done
