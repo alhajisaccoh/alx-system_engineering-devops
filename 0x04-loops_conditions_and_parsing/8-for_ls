@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display the content of the current directory, in a list format.
+# Do not display hidden files.
+
+ls -l ./
