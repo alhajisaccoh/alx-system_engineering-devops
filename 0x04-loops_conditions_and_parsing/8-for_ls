@@ -2,4 +2,9 @@
 # Display the content of the current directory, in a list format.
 # Do not display hidden files.
 
-ls -l ./
+for file in *; do
+
+	if [[ ! $file == .* ]]; then
+		echo "$file"
+	fi
+done
